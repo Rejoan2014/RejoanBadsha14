@@ -1,0 +1,7 @@
+$booking = $this->booking_info_model->get(['booking_ref_id' => $refId]);
+if ($booking) {
+    $booking_infos[] = $booking;
+} else {
+    // Handle the case where no booking is found with the given reference ID
+    // You might want to log an error or take other appropriate action
+}
