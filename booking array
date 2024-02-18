@@ -5,3 +5,4 @@ if ($booking) {
     // Handle the case where no booking is found with the given reference ID
     // You might want to log an error or take other appropriate action
 }
+This is booking array
